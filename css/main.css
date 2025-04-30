@@ -1,0 +1,16 @@
+/* General Reset
+{
+    margin: 0;
+    padding: 0;
+
+} */
+
+body {
+    background: url(/img/bird.png);
+}
+
+.container {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
