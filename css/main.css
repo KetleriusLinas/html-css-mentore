@@ -1,16 +1,38 @@
-/* General Reset
-{
+ /* General Reset */
+ {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: verdana ;
+} 
 
-} */
+ body {
+     background: url(/img/bird.png);
+     background-size: cover;
+     height: 100vh;
+ }
 
-body {
-    background: url(/img/bird.png);
-}
+ .container {
+     backdrop-filter: blur(4px);
+     background-color: rgb(255, 255, 255, 0.615);
+     height: 100%;
+     width: 100%;
+ }
 
-.container {
-    background-color: white;
-    height: 100%;
-    width: 100%;
-}
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 2rem;
+     align-items: center;
+ }
+
+ .navbar ul {
+     list-style: none;
+     display: flex;
+     gap: 45px;
+ }
+
+ .navbar a{
+    text-decoration: none;
+    color: black;
+ }
