@@ -1,5 +1,5 @@
  /* General Reset */
- {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
  body {
      background: url(/img/bird.png) no-repeat center center fixed;
      background-size:cover;
-     height: 90vh;
+     height: 100vh;
      display: flex;
  }
 
@@ -85,4 +85,18 @@
  .cta-btns {
     display: flex;
     justify-content: center;
+    padding: 20px;
  }
+ .btn {
+   padding: 15px 20px;
+   border: none;
+ }
+ .primary {
+   background-color: rgb(96, 49, 113);
+   color: white;
+  }
+  .secondary {
+   background-color: transparent;
+   border: 2px solid rgb(96, 49, 113);
+   color: rgb(96, 49, 113);
+  }
