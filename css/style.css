@@ -1,152 +1,152 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
- body {
-  background: url('image.png') no-repeat center center fixed; 
-  background-size: cover;
-  height: 100vh;
- }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
- .container {
-  backdrop-filter: blur(4px);
-  background-color: rgba(255, 255, 255, 0.615);
-  height: 100%;
-  width: 100%;
-  padding: 2%;
- }
+body {
+   background: url('image.png') no-repeat center center fixed;
+   background-size: cover;
+   height: 100vh;
+}
 
- .navbar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  align-items: center;
- }
+.container {
+   backdrop-filter: blur(4px);
+   background-color: rgba(255, 255, 255, 0.615);
+   height: 100%;
+   width: 100%;
+   padding: 2%;
+}
 
- .navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 45px
- }
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+   align-items: center;
+}
 
- .navbar a{
-  text-decoration: none;
-  color: rgb(27, 9, 19);
-  font-weight: bold;
-  transition: 0.4s;
- }
+.navbar ul {
+   list-style: none;
+   display: flex;
+   gap: 45px
+}
 
- .navbar a:hover{
-  color:rgb(158, 84, 175)
- }
+.navbar a {
+   text-decoration: none;
+   color: rgb(27, 9, 19);
+   font-weight: bold;
+   transition: 0.4s;
+}
 
- .navbar .actions{
-  display: flex;
-  gap: 20px;
-  align-items: center;
- }
+.navbar a:hover {
+   color: rgb(158, 84, 175)
+}
 
- .action-button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-weight: bold;
- }
+.navbar .actions {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
 
- .action-button.email {
-  align-items: center;
- }
+.action-button {
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: bold;
+}
 
- .action-button.login {
-  background-color: rgb(231, 128, 195);
-  color: rgb(96, 49, 113);
- }
+.action-button.email {
+   align-items: center;
+}
 
- .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 70vh;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
- }
+.action-button.login {
+   background-color: rgb(231, 128, 195);
+   color: rgb(96, 49, 113);
+}
 
- .headline {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  color: rgb(96, 49, 113);
-  margin-bottom: 15px;
- }
+.content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 70vh;
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: center;
+}
 
- .subhead{
-  font-size: 1.2rem;
-  color: rgb(59, 57, 57);
- }
+.headline {
+   font-size: 3rem;
+   letter-spacing: 2px;
+   color: rgb(96, 49, 113);
+   margin-bottom: 15px;
+}
 
- .cta-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  padding: 20px;
- }
+.subhead {
+   font-size: 1.2rem;
+   color: rgb(59, 57, 57);
+}
 
- .btn{
-    padding: 15px 30px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 15px;
- }
+.cta-buttons {
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   padding: 20px;
+}
 
- .primary {
-  background-color: rgb(96, 49, 113);
-  color: white;
- }
+.btn {
+   padding: 15px 30px;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 15px;
+}
 
- .primary:hover {
-  background-color: rgb(67, 34, 80);
- }
+.primary {
+   background-color: rgb(96, 49, 113);
+   color: white;
+}
 
- .secondary {
-  background-color: transparent;
-  border: 2px solid rgb(96, 49, 113);
-  color: rgb(96, 49, 113);
- }
+.primary:hover {
+   background-color: rgb(67, 34, 80);
+}
 
- .secondary:hover{
-  background-color: rgb(96, 49, 113);
-  color: white;
- }
+.secondary {
+   background-color: transparent;
+   border: 2px solid rgb(96, 49, 113);
+   color: rgb(96, 49, 113);
+}
 
- .subscribe-form{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
- }
+.secondary:hover {
+   background-color: rgb(96, 49, 113);
+   color: white;
+}
 
- .subscribe-form input[type="email"]{
-  padding: 10px 40px;
-  border-radius: 20px;
-  border: 1px solid rgb(210, 208, 208);
-  width: 40%;
- }
+.subscribe-form {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
 
- .subscribe-form button{
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: rgb(96, 49, 113);
-  color: white;
-  border: none;
-  font-weight: bold;
- }
+.subscribe-form input[type="email"] {
+   padding: 10px 40px;
+   border-radius: 20px;
+   border: 1px solid rgb(210, 208, 208);
+   width: 40%;
+}
 
- .subscribe-form button:hover{
-  background-color: rgb(67, 34, 80);
- }
+.subscribe-form button {
+   padding: 10px 20px;
+   border-radius: 20px;
+   background-color: rgb(96, 49, 113);
+   color: white;
+   border: none;
+   font-weight: bold;
+}
+
+.subscribe-form button:hover {
+   background-color: rgb(67, 34, 80);
+}

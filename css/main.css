@@ -4,51 +4,52 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+ }
 
  body {
-     background: url(/img/bird.png) no-repeat center center fixed;
-     background-size:cover;
-     height: 100vh;
-     display: flex;
+    background: url(/img/bird.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
  }
 
  .container {
-     backdrop-filter: blur(1px);
-     background-color: rgb(255, 255, 255, 0.615);
-     height: 100%;
-     width: 100%;
-     padding: 2%;
+    backdrop-filter: blur(1px);
+    background-color: rgb(255, 255, 255, 0.615);
+    height: 100%;
+    width: 100%;
+    padding: 2%;
  }
 
  .navbar {
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 2rem;
-     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
  }
 
  .navbar ul {
-     list-style: none;
-     display: flex;
-     gap: 45px;
+    list-style: none;
+    display: flex;
+    gap: 45px;
  }
 
- .navbar a{
+ .navbar a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     transition: 0.5s;
  }
- .navbar a:hover {
-  color:rgb(158, 84, 175)
 
+ .navbar a:hover {
+    color: rgb(158, 84, 175)
  }
-.actions{
+
+ .actions {
     display: flex;
     gap: 20px;
     align-items: center;
-   }
+ }
 
  .action-button {
     padding: 10px 20px;
@@ -56,11 +57,33 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.5s;
+ }
+
+ .action-button.email {
+    color: rgb(96, 49, 113);
+    background-color: transparent;
+    border: 2px solid rgb(96, 49, 113);
+ }
+
+ .action-button.email:hover {
+    background-color: #C87EBC;
+    border: 2px solid rgb(96, 49, 113);
+    color: white;
  }
 
  .action-button.login {
-    background-color:#C87EBC ;
+    background-color: rgb(96, 49, 113);
+    border: 2px solid rgb(96, 49, 113);
+    color: white;
  }
+
+ .action-button.login:hover {
+    background-color: #C87EBC;
+    border: 2px solid rgb(96, 49, 113);
+    color: white;
+ }
+
  .content {
     display: flex;
     flex-direction: column;
@@ -71,32 +94,91 @@
     text-align: center;
 
  }
+
  .title {
     text-transform: uppercase;
     color: #5C2E7E;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 2px;
     font-size: 50px;
+    margin-bottom: 20px;
  }
+
  .sub-title {
     font-size: 1.2rem;
     color: #444444;
+    margin-bottom: 20px;
+
  }
+
  .cta-btns {
     display: flex;
     justify-content: center;
     padding: 20px;
+    gap: 10px;
+    margin-bottom: 10px;
+
  }
+
  .btn {
-   padding: 15px 20px;
-   border: none;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
  }
+
  .primary {
-   background-color: rgb(96, 49, 113);
-   color: white;
-  }
-  .secondary {
-   background-color: transparent;
-   border: 2px solid rgb(96, 49, 113);
-   color: rgb(96, 49, 113);
-  }
+    background-color: rgb(96, 49, 113);
+    color: white;
+ }
+
+ .primary:hover {
+    background-color: #C87EBC;
+    border: 2px solid rgb(96, 49, 113);
+    color: white;
+ }
+
+ .secondary {
+    background-color: transparent;
+    border: 2px solid rgb(96, 49, 113);
+    color: rgb(96, 49, 113);
+ }
+
+ .secondary:hover {
+    background-color: #C87EBC;
+    color: white;
+ }
+
+ .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+ }
+
+ .subscribe-form input[type="email"] {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(210, 208, 208);
+    width: 42%;
+    text-align: center;
+ }
+
+ .subscribe-form button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(96, 49, 113);
+    color: white;
+    border: 2px solid rgb(96, 49, 113);
+    ;
+    font-weight: bold;
+    cursor: pointer;
+
+ }
+
+ .subscribe-form button:hover {
+    background-color: #C87EBC;
+    border: 2px solid rgb(96, 49, 113);
+    color: white;
+    transition: 0.5s;
+ }
